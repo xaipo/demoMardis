@@ -1,0 +1,7 @@
+{
+  "name": "saValidacion",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
