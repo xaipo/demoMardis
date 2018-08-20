@@ -21,6 +21,7 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
   ],
   imports: [
     BrowserModule,
+
     IonicModule.forRoot(MyApp),
     LeafletModule.forRoot(),
     LeafletModule
