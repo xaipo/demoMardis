@@ -41,6 +41,10 @@ export class MapPage {
         alert('Marker clicked');
       })
       markerGroup.addLayer(marker);
+
+      markerGroup.addLayer(leaflet.marker([e.latitude + 0.04, e.longitude]));
+      markerGroup.addLayer(leaflet.marker([e.latitude, e.longitude+0.03]));
+
       this.map.addLayer(markerGroup);
     }).on('locationerror', (err) => {
       alert(err.message);
